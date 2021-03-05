@@ -4,33 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>HTML basics: main logical components</title>
+    <title>Presentation of a calendar based on HTML logical components</title>
 </head>
 
 <body>
     <header>
-        <h1>This story, this markup is about a calendar for spring</h1>
+        <h1>A Calendar and 4 seasons of the year ... </h1>
+        <nav>
+            <ul>
+                <li><a href="content/calendar.html">Calendar</a></li>
+                <li><a href="content/seasons.html">Seasons of the year</a></li>
+                <li><a href="content/calroundglobe.html">Calendars of the World</a></li>
+                <li><a href="content/funresources.html">Interesting resources</a></li>
+                <li><a href="content/about.html">About Project</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
 
+    <!-- The side navigation through the current document -->
+    <aside>
+        <nav>
+            <ul>
+                <li><a href="#spring_months">Spring's months</a></li>
+                <li><a href="#visual_months">Monts' visualization</a></li>
+                <li><a href="#days_of_month">Days of month</a></li>
+                <li><a href="#additional_info">Additional info</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main>
+        <h2>This story, this markup is about a calendar for spring</h2>
+        
         <!-- Months of the Spring ... -->
         <section>
-            <h2>Months of the Spring ...</h2>
+            <h3 id="spring_months">Months of the Spring ...</h3>
             <p>
                 Spring is the season of the year between winter and summer.<br>
                 In the northern hemisphere, spring is in March, April and May.
-
+                
                 <h3>In other words, here is the list presenting these months</h3>
-
+                
                 <ol>
                     <li><em>March</em>, the 1st month of the Spring</li>
                     <li><em>April</em>, the 2nd month of the Spring</li>
                     <li><em>May</em>, the 3rd month of the Spring</li>
                 </ol>
-
+                
             </p>
+        </section>
+        
+        <!-- Visual presentation of months-->
+        <section>
+            <h3 id="visual_months">Here is a visual presentation of the Spring months</h3>
             <p>
-                Here is a visual presentation of the Spring months
                 <ul>
                     <li>
                         <img src="images/01-tulips-with-spring-months-table-by-freepik.jpg" alt="A visual presentation of the spring's month">
@@ -43,12 +70,86 @@
                     </li>
                 </ul>
             </p>
-
         </section>
-    </main>
-    <!-- <footer>
 
-    </footer> -->
+        <!-- An Emmet's digest ... -->
+        <!-- section>(h3{March }>span.year{2021})+table>(thead>tr>th*7)+tbody>(tr>td*7)*5 -->
+        <section>
+            <h3 id="days_of_month">March <span class="year">2021</span></h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                        <th>Saturday</th>
+                        <th>Sunday</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td>20</td>
+                        <td>21</td>
+                    </tr>
+                    <tr>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                        <td>26</td>
+                        <td>27</td>
+                        <td>28</td>
+                    </tr>
+                    <tr>
+                        <td>29</td>
+                        <td>30</td>
+                        <td>31</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+            
+    </main>
+    <footer>
+        <p id="additional_info">
+            You can find us at following address :
+            <address>
+                Elfs' Calendar Factory,<br>
+                74 HOUSE,<br>
+                Valley of Hapiness,<br>
+                Somethere on Earth, 23049
+            </address>
+        </p>
+    </footer>
 </body>
 
 </html>
