@@ -9,6 +9,8 @@
 
 ## Here is the [Stackademic bootcamp](https://stackademic.com/) home tasks' list in chronological *reverse order* :
 
+### HTML, CSS
+
 - **20210404, a minimalistic Responsive site** [Watch](https://grinature.github.io/STACKAdemic-bootcamp/20210404.ResponsiveSITE) • [Source](https://github.com/grinature/STACKAdemic-bootcamp/tree/main/20210404.ResponsiveSITE)
 
 - **20210222.HTML** [Watch](https://grinature.github.io/STACKAdemic-bootcamp/20210222.HTML) • [Source](https://github.com/grinature/STACKAdemic-bootcamp/tree/main/20210222.HTML)
@@ -17,4 +19,4 @@
 
 ![Stackademic figure](Stackademic-Figures-01.png)
 
-*N.B.* Read about *"GitHub Pages"* at the following link [https://pages.github.com/](https://pages.github.com/)
+**N.B.** Read about *"GitHub Pages"* at the following link [https://pages.github.com/](https://pages.github.com/)
