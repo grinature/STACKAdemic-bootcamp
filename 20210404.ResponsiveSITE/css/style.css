@@ -1,4 +1,69 @@
-* {
+/* * {
     box-sizing: border-box;
+} */
+
+.container {
+    background-color: rgb(224, 241, 252);
 }
 
+
+header {
+    display: flex;
+    flex-flow: column nowrap;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header_promo {
+
+    font-size: 2rem;
+    text-align: center;
+    text-transform:uppercase;
+    
+    color:rgba(0, 0, 0, 1.0);
+}
+
+.header_promo__name {
+    text-transform: capitalize;
+
+    color:orange;
+}
+
+.header_promo__detail {
+    font-size: 1.5rem;
+
+    text-align:center;
+    text-transform:lowercase;
+
+    background-color: orange;
+    color: white
+}
+
+/*  Header Navigation Menu */
+.nav_header__menu {
+    display: flex;
+    padding: 0.5rem 0;
+
+    flex-flow: column wrap;
+    justify-content: space-between;
+    justify-content: center;
+    /* justify-items: ; */
+    align-items: stretch;
+
+    text-align: center;
+
+}
+
+.nav_header__menu  li {
+
+    list-style-type: none;
+
+    border: 1px cyan solid;
+
+}
+
+.nav_header__menu  li a {
+    text-decoration-line: none;
+    display: block;
+
+}
