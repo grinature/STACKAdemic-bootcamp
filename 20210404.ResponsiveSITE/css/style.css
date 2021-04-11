@@ -2,6 +2,10 @@
     box-sizing: border-box;
 } */
 
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .container {
     background-color: rgb(224, 241, 252);
 }
@@ -11,25 +15,55 @@ header {
     display: flex;
     flex-flow: column nowrap;
 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.header_promo {
+section {
+    margin-bottom: 1.2rem;
+}
 
-    font-size: 2rem;
+.heading_promo {
+
+    /* font-size: 2rem; */
     text-align: center;
     text-transform:uppercase;
-    
+
     color:rgba(0, 0, 0, 1.0);
+
+    background-color: white;
+
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 
-.header_promo__name {
+/* .heading_promo::after {
+    content: '\00AE';
+    font-size: 40%;
+} */
+
+
+.heading-size-big {
+    font-size: 2.5rem;
+}
+
+.heading-size-middle {
+    font-size: 1.5rem;
+}
+
+.heading-size-normal {
+    font-size: 1rem;
+}
+
+
+.heading_promo__name {
     text-transform: capitalize;
 
     color:orange;
 }
 
-.header_promo__detail {
+.heading__subsign {
+    font-size: 40%;
+}
+
+.heading_promo__detail {
     font-size: 1.5rem;
 
     text-align:center;
@@ -38,6 +72,7 @@ header {
     background-color: orange;
     color: white
 }
+
 
 /*  Header Navigation Menu */
 .nav_header__menu {
@@ -58,7 +93,8 @@ header {
 
     list-style-type: none;
 
-    border: 1px cyan solid;
+    /* border: 1px cyan solid; */
+    border: 1px rgb(236, 207, 153) solid;
 
 }
 
@@ -66,4 +102,68 @@ header {
     text-decoration-line: none;
     display: block;
 
+    text-transform: uppercase;
+
+    color:rgb(148, 99, 9);
+    /* background-color: rgb(189, 227, 238); */
+    background-color: rgb(241, 235, 216);
+}
+
+.nav_header__menu  li a:hover {
+    background-color: rgb(243, 219, 141);
+}
+
+
+/*
+    Product Description sections
+*/
+
+.product__heading {
+
+    /* font-size: 2rem; */
+    text-align: start;
+    text-transform:uppercase;
+    text-indent: 1rem;
+
+
+    color:rgb(63, 61, 61);
+    color: white;
+
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+
+    background-color: #fff;
+    background-color: rgb(241, 235, 216);
+    background-color: sandybrown;
+}
+
+
+section h2 {
+    margin-bottom: 1.2rem;;
+}
+
+section :nth-child(n+2) {
+
+    text-indent: 1.5rem;
+}
+
+footer section {
+    color: grey;
+    color: #867676;
+}
+
+address {
+    margin-left: 1rem;
+}
+
+li {
+    list-style: none;
+}
+
+.product__list li::before {
+    margin-right: 0.5rem;
+
+    content: "\2022";
+
+    color: orange;
+    /* color: red; */
 }
