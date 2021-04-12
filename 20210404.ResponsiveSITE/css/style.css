@@ -146,6 +146,10 @@ section {
     background-color: #c0e1f7;
 }
 
+main section:hover {
+    background-color: #b0dfff;
+}
+
 section h2 {
     margin-bottom: 1.2rem;;
 }
@@ -191,7 +195,12 @@ section:last-child {
     background-color: #fff;
 }
 
-.pill_table__content tr:hover {
+tbody.pill_table__content td {
+    /* text-indent: 1.4rem; */
+    padding-left: 1.4rem;
+}
+
+tbody.pill_table__content tr:hover {
     background-color:rgb(204, 241, 229);
 }
 
@@ -282,10 +291,10 @@ li {
         /* align-items: flex-start; */
     }
 
-    main :last-child {
+    /* main :last-child {
         align-self: flex-start;
         justify-self: self-start;
-    }
+    } */
 
     section {
         /* min-width: 33%;
