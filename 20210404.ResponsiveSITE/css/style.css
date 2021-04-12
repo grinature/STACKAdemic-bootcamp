@@ -160,6 +160,41 @@ section:last-child {
     padding-bottom: 0.8rem;
 }
 
+/* Pill's tabular description */
+
+.pill_table {
+    margin-left: auto;
+    margin-right: auto;
+
+    /* padding: 0.7rem 1rem; */
+
+    width: 80%;
+}
+
+.table__caption {
+    border-bottom: 2px orange solid;
+
+    padding-top: 0.4rem;
+
+    font-weight: bold;
+    text-transform: uppercase;
+
+    background-color: aliceblue;
+
+
+}
+
+.pill_table__content {
+    padding-left: 1rem;;
+    padding-right: 1rem;
+
+    background-color: #fff;
+}
+
+.pill_table__content tr:hover {
+    background-color:rgb(204, 241, 229);
+}
+
 footer {
     margin-top: 1.4rem;;
 
