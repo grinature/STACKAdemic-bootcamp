@@ -170,9 +170,25 @@ section:last-child {
     margin-left: auto;
     margin-right: auto;
 
+    border-collapse: collapse;
     /* padding: 0.7rem 1rem; */
+    margin-bottom: 0.8rem;
 
     width: 80%;
+}
+
+.pill_table th {
+    text-align: center;
+
+    background-color: rgb(200, 240, 243);
+}
+
+.pill_table 
+
+.pill_table th,
+.pill_table td {
+    border: 1px rgb(151, 240, 203) solid;
+    border: 1px orange solid;    
 }
 
 .table__caption {
@@ -195,6 +211,11 @@ section:last-child {
     background-color: #fff;
 }
 
+tbody.pill_table__content tr:nth-child( even ) {
+    /* background-color: #e4f7f8; */
+    background-color: #e1f1fc;
+}
+
 tbody.pill_table__content td {
     /* text-indent: 1.4rem; */
     padding-left: 1.4rem;
@@ -203,6 +224,8 @@ tbody.pill_table__content td {
 tbody.pill_table__content tr:hover {
     background-color:rgb(204, 241, 229);
 }
+
+
 
 footer {
     margin-top: 1.4rem;;
